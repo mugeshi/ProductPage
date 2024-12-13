@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #d0eaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+    
+}
+.gallery{
+    flex-basis: 47%;
+    width: 100%;
+}
+.gallery img{
+    width: 360px;
+    object-fit: cover;
+    height: 700px;
+    display: block;
+    padding-top: 100px;
+
+}
+.details{
+    background: #fff;
+    padding: 40px;
+    padding-right: 10%;
+    height: 600px;
+    width: 600px;
+    margin-top: 16%;  
+    margin-bottom: 15%;
+
+}
